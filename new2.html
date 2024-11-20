@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prestige Dem - Service de déménagement haut de gamme">
+    <title>Prestige Dem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-text">
+            <h1>Bienvenue chez Prestige Dem</h1>
+            <p>Le meilleur service de déménagement pour votre confort et votre tranquillité.</p>
+            <a href="#contact" class="cta-button">Demandez un devis</a>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Déménagement résidentiel</h3>
+                <p>Un déménagement en toute sérénité pour votre maison ou appartement.</p>
+            </div>
+            <div class="service">
+                <h3>Déménagement d'entreprise</h3>
+                <p>Services professionnels adaptés aux besoins de votre entreprise.</p>
+            </div>
+            <div class="service">
+                <h3>Emballage et protection</h3>
+                <p>Nous protégeons vos objets fragiles avec soin.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="about">
+        <h2>À Propos de Prestige Dem</h2>
+        <p>Prestige Dem est une entreprise spécialisée dans les services de déménagement haut de gamme. Nous vous offrons des solutions personnalisées, efficaces et rapides.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Prestige Dem. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
